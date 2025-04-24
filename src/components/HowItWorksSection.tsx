@@ -1,11 +1,11 @@
 
 import React from 'react';
-import { FileImport, LineChart, Lightbulb } from "lucide-react";
+import { FileText, LineChart, Lightbulb } from "lucide-react";
 
 const HowItWorksSection: React.FC = () => {
   const steps = [
     {
-      icon: <FileImport className="h-10 w-10 text-cashwise-blue" />,
+      icon: <FileText className="h-10 w-10 text-cashwise-blue" />,
       title: "Connect your Data",
       description: "Easily connect your bank feeds, accounting software, or upload financial data directly via CSV/Excel."
     },
